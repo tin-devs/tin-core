@@ -19,6 +19,7 @@
 *.so
 *.so.*
 *.dylib
+.libs
 
 # Executables
 *.exe
@@ -30,3 +31,39 @@
 
 # Debug files
 *.dSYM/
+
+# autotools
+/autom4te.cache/
+/config/
+Makefile
+Makefile.in
+aclocal.m4
+app.info
+compile
+config.h
+config.h.in
+config.log
+config.status
+configure
+configure.scan
+coverage_report
+depcomp
+install-sh
+libtool
+m4
+missing
+stamp-h1
+ar-lib
+config.guess
+config.sub
+ltmain.sh
+
+# misc
+*~
+*.html
+*.log
+.deps
+*.tar*
+*.zip
+*.gcno
+*.orig
