@@ -120,8 +120,9 @@ Sn *sn_new(void)
 
 void sn_kill(Sn *sn)
 {
-    if (sn == NULL)
+    if (sn == NULL) {
         return;
+    }
 
     if (sn->tox) {
         tox_kill(sn->tox);
